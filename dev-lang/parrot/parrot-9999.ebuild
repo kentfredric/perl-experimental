@@ -13,7 +13,7 @@ SRC_URI=""
 
 LICENSE="Artistic-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS=""
 IUSE="opengl nls doc examples gdbm gmp ssl unicode pcre"
 
 RDEPEND="
