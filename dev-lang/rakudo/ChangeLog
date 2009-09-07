@@ -1,0 +1,10 @@
+# ChangeLog for dev-lang/rakudo
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rakudo-9999 (07 Sep 2009)
+
+  07 Sep 2009; Kent Fredric <kentfredric@gmail.com> +rakudo-9999.ebuild,
+  +metadata.xml:
+  Added. Beware: Really hackish still.
+
