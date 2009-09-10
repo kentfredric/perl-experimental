@@ -1,0 +1,182 @@
+# ChangeLog for dev-lang/perl
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*perl-5.14.1 (18 Jun 2011)
+
+  18 Jun 2011; Torsten Veller <tove@gentoo.org> -perl-5.14.1_rc1-r1.ebuild,
+  +perl-5.14.1.ebuild:
+  Version bump
+
+*perl-5.12.4_rc2 (15 Jun 2011)
+
+  15 Jun 2011; Torsten Veller <tove@gentoo.org> -perl-5.12.4_rc1-r1.ebuild,
+  +perl-5.12.4_rc2.ebuild:
+  Version bump
+
+*perl-5.14.1_rc1-r1 (11 Jun 2011)
+*perl-5.12.4_rc1-r1 (11 Jun 2011)
+
+  11 Jun 2011; Torsten Veller <tove@gentoo.org> -perl-5.12.4_rc1.ebuild,
+  +perl-5.12.4_rc1-r1.ebuild, -perl-5.14.1_rc1.ebuild,
+  +perl-5.14.1_rc1-r1.ebuild:
+  Fix PERL_OLDVERSEN
+
+*perl-5.12.4_rc1 (11 Jun 2011)
+
+  11 Jun 2011; Torsten Veller <tove@gentoo.org> +perl-5.12.4_rc1.ebuild:
+  Version bump
+
+*perl-5.14.1_rc1 (11 Jun 2011)
+
+  11 Jun 2011; Torsten Veller <tove@gentoo.org> +perl-5.14.1_rc1.ebuild:
+  Version bump
+
+*perl-5.14.0 (14 May 2011)
+
+  14 May 2011; Torsten Veller <tove@gentoo.org> -perl-5.14.0_rc3.ebuild,
+  +perl-5.14.0.ebuild:
+  Version bump
+
+*perl-5.14.0_rc3 (11 May 2011)
+
+  11 May 2011; Torsten Veller <tove@gentoo.org> -perl-5.14.0_rc2.ebuild,
+  +perl-5.14.0_rc3.ebuild:
+  Bump
+
+*perl-5.14.0_rc2 (08 May 2011)
+
+  08 May 2011; Torsten Veller <tove@gentoo.org> -perl-5.14.0_rc1-r1.ebuild,
+  +perl-5.14.0_rc2.ebuild:
+  Bump
+
+*perl-5.14.0_rc1-r1 (22 Apr 2011)
+
+  22 Apr 2011; Torsten Veller <tove@gentoo.org> -perl-5.14.0_rc1.ebuild,
+  +perl-5.14.0_rc1-r1.ebuild:
+  ptargrep and json_pp are new dual scripts
+
+*perl-5.14.0_rc1 (20 Apr 2011)
+
+  20 Apr 2011; Torsten Veller <tove@gentoo.org> +perl-5.14.0_rc1.ebuild,
+  +metadata.xml:
+  Add perl-5.14.0_rc1 for testing
+
+  01 Sep 2010; Torsten Veller <tove@gentoo.org> perl-5.12.2_rc1.ebuild:
+  Fix Module-CoreList version
+
+*perl-5.12.2_rc1 (31 Aug 2010)
+
+  31 Aug 2010; Torsten Veller <tove@gentoo.org> -perl-5.12.1.ebuild,
+  +perl-5.12.2_rc1.ebuild:
+  Add perl-5.12.2-RC1
+
+  19 Jun 2010; Torsten Veller <tove@gentoo.org> -perl-5.12.0.ebuild,
+  perl-5.12.1.ebuild:
+  Sync with gentoo
+
+  18 Jun 2010; Torsten Veller <tove@gentoo.org> perl-5.12.1.ebuild:
+  Mainly fix MINIMAL_PERL_INSTALL pathes
+
+  17 Jun 2010; Torsten Veller <tove@gentoo.org> perl-5.12.1.ebuild:
+  Create perl header files (*.ph) for a small number of headers in
+  pkg_postinst (#292985)
+
+  16 Jun 2010; Torsten Veller <tove@gentoo.org> perl-5.12.1.ebuild:
+  Bump patchset: ExtUtils::MakeMaker does not install .packlist or
+  perllocal.pod for perl or vendor
+
+  17 May 2010; Torsten Veller <tove@gentoo.org> perl-5.12.1.ebuild:
+  Add Gentoo patches to patchlevel.h
+
+*perl-5.12.1 (17 May 2010)
+
+  17 May 2010; Torsten Veller <tove@gentoo.org> +perl-5.12.1.ebuild:
+  Version bump
+
+*perl-5.12.0 (13 Apr 2010)
+
+  13 Apr 2010; Torsten Veller <tove@gentoo.org> -perl-5.12.0_rc5.ebuild,
+  +perl-5.12.0.ebuild:
+  Bump
+
+*perl-5.12.0_rc5 (10 Apr 2010)
+
+  10 Apr 2010; Torsten Veller <tove@gentoo.org> -perl-5.12.0_rc4.ebuild,
+  +perl-5.12.0_rc5.ebuild:
+  Bump
+
+*perl-5.12.0_rc4 (07 Apr 2010)
+
+  07 Apr 2010; Torsten Veller <tove@gentoo.org> -perl-5.12.0_rc3.ebuild,
+  +perl-5.12.0_rc4.ebuild:
+  Bump
+
+*perl-5.12.0_rc3 (04 Apr 2010)
+
+  04 Apr 2010; Torsten Veller <tove@gentoo.org> -perl-5.12.0_rc2.ebuild,
+  +perl-5.12.0_rc3.ebuild:
+  Bmp
+
+*perl-5.12.0_rc2 (02 Apr 2010)
+
+  02 Apr 2010; Torsten Veller <tove@gentoo.org> -perl-5.12.0_rc1.ebuild,
+  +perl-5.12.0_rc2.ebuild:
+  Bump
+
+*perl-5.12.0_rc1 (30 Mar 2010)
+
+  30 Mar 2010; Torsten Veller <tove@gentoo.org> +perl-5.12.0_rc1.ebuild,
+  +metadata.xml:
+  First test version. Might be broken. New perl-5.12.0 bugs should block bug
+  #312061
+
+*perl-9999 (10 Sep 2009)
+
+  10 Sep 2009; Kent Fredric <kentfredric@gmail.com> +perl-9999.ebuild:
+  Added perl blead. Its kinda broken though, for some reason lib/ doesn't
+  install.
+
+  06 Sep 2009; Kent Fredric <kentfredric@gmail.com> metadata.xml:
+  IUSE unused metadata
+
+  25 Aug 2009; Torsten Veller <tove@gentoo.org> perl-5.10.1-r11.ebuild:
+  Use system libbz2 and libz
+
+  25 Aug 2009; Torsten Veller <tove@gentoo.org> -perl-5.8.8-r10.ebuild,
+  -perl-5.10.0.ebuild, -perl-5.10.0-r1.ebuild, -perl-5.10.0-r2.ebuild,
+  -perl-5.10.0-r10.ebuild:
+  Cleanup
+
+  25 Aug 2009; Torsten Veller <tove@gentoo.org> perl-5.10.1-r11.ebuild:
+  Update patchset
+
+*perl-5.10.1-r11 (24 Aug 2009)
+
+  24 Aug 2009; Torsten Veller <tove@gentoo.org> -perl-5.10.1_rc1-r11.ebuild,
+  -perl-5.10.1_rc2-r11.ebuild, +perl-5.10.1-r11.ebuild:
+  Add perl-5.10.1. Remove RCs
+
+*perl-5.10.1_rc2-r11 (19 Aug 2009)
+
+  19 Aug 2009; Torsten Veller <tove@gentoo.org> perl-5.10.1_rc1-r11.ebuild,
+  +perl-5.10.1_rc2-r11.ebuild:
+  Add perl-5.10.1_rc2
+
+*perl-5.10.1_rc1-r10 (08 Aug 2009)
+
+  08 Aug 2009; Torsten Veller <tove@gentoo.org> +perl-5.10.1_rc1-r10.ebuild:
+  Bump
+
+*perl-5.10.0-r2 (23 May 2009)
+
+  23 May 2009; Torsten Veller <tove@gentoo.org> +perl-5.10.0-r2.ebuild:
+  Add new dual life module (ExtUtils-MakeMaker).
+
+  30 Mar 2009; kentfredric@gmail.com +metadata.xml:
+  Fixing up the copyrights, metadata and USE controls for QA purposes
+
+  04 Mar 2009; Torsten Veller <tove@gentoo.org> +perl-5.10.0-r1.ebuild:
+  Add new dual life modules (CPAN, CPANPLUS, Encode) to see how ugly it
+  gets. You have to install perl before the new modules to avoid collisions
+
