@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: /var/cvsroot/gentoo-x86/dev-lang/parrot/ChangeLog,v 1.27 2009/11/02 18:49:36 patrick Exp $
 
+  26 Oct 2009; Kent Fredric <kentfredric@gmail.com> parrot-9999.ebuild:
+  Whitespace
+
   07 Sep 2009; Kent Fredric <kentfredric@gmail.com> parrot-9999.ebuild:
   KEYWORD masked
 

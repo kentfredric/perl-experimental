@@ -32,7 +32,7 @@ DEPEND="
 "
 
 src_unpack(){
-	# This is pretty nasty, 
+	# This is pretty nasty,
 	# but svn builds need to have a working ability to call
 	# 'svn info' to get revision data
 	subversion_src_unpack
