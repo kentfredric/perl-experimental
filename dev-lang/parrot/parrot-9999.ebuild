@@ -44,7 +44,7 @@ src_unpack(){
 	# export to the ${WORKDIR}
 	#*  "svn export" has a bug.  see http://bugs.gentoo.org/119236
 	#* svn export . "${S}" || die "${ESVN}: can't export to ${S}."
-	rsync -rlpgo . "${S}" || die "${ESVN}: can't export to ${S}."
+	rsync -rlpgo . "${S}/" || die "${ESVN}: can't export to ${S}."
 
 }
 src_prepare() {
