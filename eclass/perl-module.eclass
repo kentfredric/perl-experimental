@@ -90,6 +90,24 @@ perlinfo_done=false
 perl_diagfile() {
 	echo "${T}/perl-diagnostics.log"
 }
+perl_diagfile_comp() {
+	local d;
+	d="$(perl_diagfile)";
+	if [[ -f "${d}.xz" ]]; then
+		echo "${d}.xz";
+		return;
+	fi
+	if [[ -f "${d}.bz2" ]]; then
+		echo "${d}.bz2";
+		return;
+	fi
+	if [[ -f "${d}.gz" ]]; then
+		echo "${d}.gz";
+		return;
+	fi
+	echo "${d}"
+	return;
+}
 
 perl_diagnostics() {
 	local d;
@@ -119,6 +137,19 @@ perl_diagnostics() {
 			eval "require $mod; print q[$mod : ] . \$${mod}::VERSION . qq[\n]; 1" or print qq{\e[31mNA: $mod\e[0m\n};
 		}' >> $d;
 	fi
+	if [[ -x $(which xz) ]]; then
+		xz -q9 -M32M "${d}";
+		return;
+	fi;
+	if [[ -x $(which bzip2) ]]; then
+		bzip2 -z -9 -s -q "${d}";
+		return;
+	fi;
+	if [[ -x $(which gzip) ]]; then
+		gzip -9 -q "${d}";
+		return;
+	fi;
+
 }
 
 perl_nonfatal() {
@@ -152,7 +183,7 @@ perl_fatal_error() {
 
 Please attach the contents of the following file with your bug report:
 
-	$(perl_diagfile)
+	$(perl_diagfile_comp)
 
 "
 	perl_diagnostics;
